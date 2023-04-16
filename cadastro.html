@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastre-se </title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+footer {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+button{
+
+	width: 190px;
+	height: 30px;
+	
+}
+table{
+	width: 100px;
+}
+
+button{
+    background-color: orangered;
+}
+
+    </style>
+</head>
+<body align="center">
+    <script>
+        var nome= document.getElementById("nome").value;
+        function cadastro(){
+            alert("cadastro realizado com sucesso, seja Bem vindo "+ nome)
+        };
+
+    </script>
+    <header>
+        Market Place
+    </header>
+    <nav>
+        <ul>
+        <li><a href="Index.html">Início</a></li>
+        <li><a href="Login.html">logar</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre nos</a></li></ul><br>
+        <input type="text" id="name" name="name" placeholder="O que você procura?"><br><br>
+    </ul>
+    </nav>
+    
+    <main>
+        <h1>crie seu cadastro</h1>
+    <h5>otimize sua experiencia e faça suas compras :)</h5>
+    <p>* indica questões obrigatorias</p>
+    <br><br>
+    <label for="">* Seu nome completo:</label>
+    <input type="text"  id="nome">
+    <br><br>
+    <label for="">* seu genero:</label>
+    <label for="">masculino</label> <input type="checkbox"> <label for="">feminino</label> <input type="checkbox" name="" id=""> <label for="">outro</label> <input type="checkbox" name="" id="">
+    <br><br>
+    <label for="">*data de nascimento:</label>
+    <input id="date" type="date">
+     <br><br>
+    <label for="">numero de celular:</label>
+    <input type="text" id="campo_celular" placeholder="Apenas Números" maxlength="11"/ required>
+    <br><br>
+    <label for="">*email</label>
+    <input type="email" name="" id="">
+    <br><br>
+    <label for="">*Senha:</label>
+    <input type="password" name="" id="">
+    <br><br>
+    <label for="">*|Confirme sua Senha:</label>
+    <input type="password" name="" id="">
+    <br><br>
+    <label for="">aceita os termos e politica de privacidade</label> <input type="checkbox" name="" id="">
+    <br><br>
+   <button type="button"onclick=cadastro()>cadastre-se</button>
+    <br><br><br>
+    <h3>ja tem ou realizou seu cadastro? <a href="Login.html"><button>clique aqui</button> </a></h3>
+    </main>
+
+    
+
+
+    <footer>
+        <p>&copy; 2023 - Site Beta Teste </p>
+    </footer>
+
+</body>
+</html>

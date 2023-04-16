@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+footer {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+button{
+
+	width: 190px;
+	height: 30px;
+	
+}
+table{
+	width: 100px;
+}
+
+button{
+    background-color: orangered;
+}
+
+    </style>
+</head>
+<body align="center">
+    <script > function adicionarCarrinho(){
+        alert("Item adicionado ao carrinho")
+    }
+        
+    
+    </script>
+	<header>
+        <h1>Market Place</h1>
+		
+    </header>
+        
+    <nav>
+        <ul>
+        <li><a href="Index.html">Início</a></li>
+        <li><a href="Login.html">logar</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre nos</a></li></ul><br>
+        <input type="text" id="name" name="name" placeholder="O que você procura?"><br><br>
+    </ul>
+    </nav>
+        
+        <main>
+            <table>
+                <h2> Sapatos e Tenis </h2>
+                <tr>
+                    <th><img src="https://a-static.mlcdn.com.br/800x560/sapato-meia-pata-feminino-rosa-torricella/emilyonline/15939370592/10f25447bd4e9f8745bdb86a8de6e2ac.jpeg" style="width: 200px;"></th>
+                    <th><img src="https://streetfeet.com.br/image/cache/catalog/AIR-FORCE-1/1013611_01-1280x1280.jpg" style="width: 200px;"></th>
+                </tr>
+                <tr>
+                    
+                    <td><p> Sapato Meia Pata Feminino </p></td>
+                    <td><p> Tênis Nike Air Force 1 Low </p></td>
+                </tr>
+                <tr>
+                    <td><p style="color: #dd721a;">157,99 R$</p></td>
+                    <td><p style="color: #dd721a;">1.099,90 R$</p></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick=adicionarCarrinho() >Comprar</button></td>
+                    <td><button type="button" onclick=adicionarCarrinho() >Comprar</button></td>
+                </tr>
+            </table>
+        </main>
+<footer>
+	<p>&copy; 2023 - Site Beta Teste </p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Itens desejados</title>
+    <style>
+      body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #dd721a;
+color: #fff;
+padding: 10px;
+}
+nav {
+background-color: #f2f2f2;
+padding: 10px;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+}
+main {
+margin: 20px;
+}
+
+footer {
+background-color: #dd721a;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+button{
+
+width: 190px;
+height: 30px;
+background-color: orangered;
+
+}
+table{
+width: 100px;
+}
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #333;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      li:hover {
+        background-color: #f2f2f2;
+      }
+      .item-name {
+        font-weight: bold;
+      }
+      .item-price {
+        font-style: italic;
+      }
+      .add-button {
+        background-color: #dd721a;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+    </style>
+    <script>
+      function showMessage(itemName) {
+        alert(itemName + " adicionado com sucesso!");
+      }
+    </script>
+  </head>
+  <body align="center">
+
+    <header>Market Place</header>
+      <nav>
+            <ul>
+            <li><a href="Index.html">Início</a></li>
+            <li><a href="Login.html">logar</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre nos</a></li></ul><br>
+            <input type="text" id="name" name="name" placeholder="O que você procura?"><br><br>
+          </ul>
+          </nav>
+
+<main>
+  <h1>Itens desejados</h1>
+    <ul>
+      <li>
+        <div class="item-info">
+          <span class="item-name">Produto A</span>
+          <span class="item-price">R$ 99,99</span>
+        </div>
+        <button class="add-button" onclick="showMessage('Produto A')">Adicionar</button>
+      </li>
+      <li>
+        <div class="item-info">
+          <span class="item-name">Produto B</span>
+          <span class="item-price">R$ 49,99</span>
+        </div>
+        <button class="add-button" onclick="showMessage('Produto B')">Adicionar</button>
+      </li>
+      <li>
+        <div class="item-info">
+          <span class="item-name">Produto C</span>
+          <span class="item-price">R$ 149,99</span>
+        </div>
+        <button class="add-button" onclick="showMessage('Produto C')">Adicionar</button>
+      </li>
+    </ul>
+</main>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+	<p>&copy; 2023 - Site Beta Teste </p>
+</footer>
+  </body>
+</html>

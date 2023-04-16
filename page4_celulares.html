@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+footer {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+button{
+
+	width: 190px;
+	height: 30px;
+	
+}
+table{
+	width: 100px;
+}
+
+button{
+    background-color: orangered;
+}
+
+    </style>
+</head>
+<body align="center">
+    <script > function adicionarCarrinho(){
+        alert("Item adicionado ao carrinho")
+    }
+        
+    
+    </script>
+	<header>
+        <h1>Market Place</h1>
+		
+    </header>
+        
+    <nav>
+        <ul>
+        <li><a href="Index.html">Início</a></li>
+        <li><a href="Login.html">logar</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre nos</a></li></ul><br>
+        <input type="text" id="name" name="name" placeholder="O que você procura?"><br><br>
+    </ul>
+    </nav>
+        
+        <main>
+            <table>
+                <h2> Celulares e Tables </h2>
+                <tr>
+                    <th><img src="https://a-static.mlcdn.com.br/800x560/iphone-11-apple-128gb-preto-61-12mp-ios/magazineluiza/155611100/1cd49b14dc8d5d36c597d5d964fc4c73.jpg" style="width: 200px;"></th>
+                    <th><img src="https://a-static.mlcdn.com.br/800x560/smartphone-samsung-galaxy-a03-64gb-preto-4g-octa-core-4gb-ram-tela-65-cam-dupla-sefie-5mp/magazineluiza/234338100/2488a7f68f90f9ab865a3ecba8b9ab6c.jpg" style="width: 200px;"></th>
+                    <th> <img src="https://samsungbr.vtexassets.com/arquivos/ids/336913-800-auto?v=637874017451970000&width=800&height=auto&aspect=true" style="width: 200px;"></th>
+                </tr>
+                <tr>
+                    
+                    <td><p> KiPhone 11 Apple 128GB Preto </p></td>
+                    <td><p> Samsung Galaxy A03 64GB Preto </p></td>
+                    <td><p> Galaxy Tab A8 (Wi-Fi) 64GB </p></td>
+                </tr>
+                <tr>
+                    <td><p style="color: #dd721a;">3.401,10 R$</p></td>
+                    <td><p style="color: #dd721a;">764,10 R$</p></td>
+                    <td><p style="color:#dd721a">1.439,10 R$</p></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick=adicionarCarrinho()>Comprar</button></td>
+                    <td><button type="button" onclick=adicionarCarrinho()>Comprar</button></td>
+                    <td><button type="button" onclick=adicionarCarrinho()>Comprar</button></td>
+                </tr>
+            </table>
+        </main>
+<footer>
+	<p>&copy; 2023 - Site Beta Teste </p>
+</footer>
+
+</body>
+
+</html>

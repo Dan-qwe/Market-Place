@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+footer {
+	background-color: #dd721a;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+button{
+
+	width: 190px;
+	height: 30px;
+	
+}
+table{
+	width: 100px;
+}
+
+button{
+    background-color: orangered;
+}
+
+    </style>
+</head>
+<body align="center">
+    <script > function adicionarCarrinho(){
+        alert("Item adicionado ao carrinho")
+    }
+        
+    
+    </script>
+	<header>
+        <h1>Market Place</h1>
+		
+    </header>
+        
+    <nav>
+        <ul>
+        <li><a href="Index.html">Início</a></li>
+        <li><a href="Login.html">logar</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre nos</a></li></ul><br>
+        <input type="text" id="name" name="name" placeholder="O que você procura?"><br><br>
+    </ul>
+    </nav>
+        
+        <main>
+            <table>
+                <h2> Moda </h2>
+                <tr>
+                    <th><img src="https://static.deluccaclassico.com.br/public/deluccaclassico/imagens/produtos/calca-de-sarja-masculina-slim-bolso-faca-azul-761.jpg" style="width: 200px;"></th>
+                    <th><img src="https://t-static.dafiti.com.br/7iTFy8XW6ZN9-f-BxYw6-NRPPAU=/fit-in/430x623/static.dafiti.com.br/p/arauto-jeans-cal%c3%a7a-jeans-feminina-wide-leg-com-elastano-2379-01511921-1-zoom.jpg" style="width: 200px;"></th>
+                </tr>
+                <tr>
+                    
+                    <td><p> Calça de Sarja Masculina </p></td>
+                    <td><p> Calça Jeans Feminina </p></td>
+                </tr>
+                <tr>
+                    <td><p style="color: #dd721a;">89,99 R$</p></td>
+                    <td><p style="color: #dd721a;">74,99 R$</p></td>
+                </tr>
+                <tr>
+                    <td><button type="button" onclick=adicionarCarrinho()>Comprar</button></td>
+                    <td><button type="button" onclick=adicionarCarrinho()>Comprar</button></td>
+                </tr>
+            </table>
+        </main>
+        
+<footer>
+	<p>&copy; 2023 - Site Beta Teste </p>
+</footer>
+
+</body>
+
+</html>
